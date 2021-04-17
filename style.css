@@ -1,0 +1,94 @@
+.container-fluid {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(images/bg-desktop.svg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 130px 130px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Logo */
+
+.logo {
+  margin-bottom: 50px;
+}
+
+/* Body */
+
+.mockup-image {
+  width: 100%;
+}
+
+.description-content {
+  width: 43%;
+}
+
+.description-header {
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.description-text {
+  color: #ffffff;
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+
+.cta-button {
+  border-radius: 30px;
+  color: hsl(257, 40%, 49%);
+  padding: 10px 60px;
+  margin-top: 15px;
+  box-shadow: 2px 2px 20px #00000061;
+}
+
+.cta-button:hover {
+  background-color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+  color: #ffffff;
+}
+
+/* Social Icons */
+
+.social-icons-group {
+  text-align: right;
+  margin-top: 60px;
+}
+
+.social-icons {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.social-icons:hover {
+  color: hsl(300, 69%, 71%);
+  border: 1px solid hsl(300, 69%, 71%);
+}
+
+
+@media (max-width: 991px) {
+
+  .description-content {
+    width: 100%;
+    text-align: center;
+  }
+
+  .social-icons-group {
+    text-align: center;
+  }
+
+}
